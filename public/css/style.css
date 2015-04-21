@@ -1,0 +1,374 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+  margin-top: 0;
+  text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
+  color: #222222;
+}
+
+/********* HEADER *********/
+
+header {
+	background: #999999;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	position: relative;
+}
+
+#titleblock {
+	text-align: center;
+	font-family: 'Lato', serif;
+        font-size: 30px;
+	height: 40px;
+	line-height: 40px;
+}
+
+/********** BODY **********/
+body { 
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	padding: 0px;
+	background-color: #FFFBEE;
+}
+
+/********** LESSON PLAN **********/
+#lessonPlan {
+    padding: 0px;
+    max-height: 100%;
+	min-width: 100%;
+	overflow-y: auto;
+	text-wrap: normal;
+}
+
+#guts {
+    margin-top: 0px;
+	padding: 0px 0px;
+	
+}
+
+#guts .comments {
+	color: #007F00;
+}
+
+#guts .quotesmarks {
+	color: #7F007F;
+}
+
+#guts .types {
+	color: #EE0000;
+}
+
+#guts .keywords {
+	color: #FF0000;
+}
+
+#guts .keywords2 {
+	color: #FF00FF;
+}
+
+#guts .operators {
+	color: #000000;
+}
+
+#guts .delimiters {
+	color: #0038E1;
+}
+
+#guts .precompiler {
+	color: #7F7F00;
+}
+
+#guts .precompilerstring {
+	color: #994400;
+}
+.lesson{
+    margin:20px;
+}
+
+#lessonPlanContainer {
+	/*min-width: 400px;*/
+	width: 48%;
+	position: relative;
+	max-height: 88%; /*500px;*/
+	min-height: 88%; /*500px;*/
+	float: left;
+	background: #E0EEEE; /*white; /*#FFBD7B;  (orange hue)*/
+	margin: -20px 0px 15px 30px; 
+	border-radius: 5px;
+    
+}
+
+#chapter {
+    border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.lessonPlanNav ul {
+	height: auto;
+	padding: 8px 0px;
+	margin: 0px;
+}
+
+
+.lessonPlanNav li {
+	display: inline;
+	padding: 8px 18px;
+	margin: 0px;
+	border-right: 1px solid black;
+}
+
+.lessonPlanNavLink:hover{
+	cursor: pointer;
+}
+
+.courseLink{
+	color:blue;
+}
+
+/********** USER INTERFACE **********/
+#userInterface {
+	min-width: 400px;
+	width: 45%;
+	float: right;
+	margin: -20px 30px 15px 0px;
+	height: 88%; /*500px;*/
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+#textareaHeader {
+	height: 36px;
+	background-color: #02B6E0;
+	color: white;
+	text-align: center;
+	font-family: 'Lato', serif;
+	font-size: 20px;
+	line-height: 36px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+#wrapper {
+	width: 100%;
+	height: 100%; /*175px;*/
+	/* color: black; */
+	background: #E0EEEE; /*#FFBD7B; (orange hue); */
+	max-height: 50% /*250px;*/
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 10px 0px 0px 0px;
+	padding: 10px 5px;
+	border-radius: 5px;
+}
+
+#intro {
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#msgBox {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	color: #333333;
+	font-family: 'Courier New';
+}
+	
+label, #msg {
+	width: 300px;
+	overflow: hidden;
+	margin: 0px 10px 0px 0px;
+	padding: 0px 7px;
+	border: none;
+	background: #E0EEEE;/*#FFBD7B; (orange hue) */
+	font-family: 'Courier New';
+}
+
+input:focus {
+	outline: none;
+}
+
+#programcode {
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: 45%; /*225px;*/
+	margin-bottom: 10px;
+	padding: 15px;
+	resize: horizontal;
+	background: white; /*#FFBD7B; (orange hue)*/
+}
+
+#output {
+	display: inline;
+}
+
+#canvas{
+width: 100%;
+height: 100%;
+}
+
+.userButtons {
+	display: inline-block;
+	height: 25px;
+	border-radius:6px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:0px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+
+.userButtons:active {
+	position:relative;
+	top:1px;
+}
+
+
+#submit {
+	background-color: #66CD00; /*http://www.december.com/html/spec/color2.html (Chartreuse3) */
+	color: white;
+}
+
+#submit {
+	-moz-box-shadow:inset 0px 1px 0px 0px #a4e271;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #a4e271;
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #89c403), color-stop(1, #77a809));
+	background:-moz-linear-gradient(top, #89c403 5%, #77a809 100%);
+	background:-webkit-linear-gradient(top, #89c403 5%, #77a809 100%);
+	background:-o-linear-gradient(top, #89c403 5%, #77a809 100%);
+	background:-ms-linear-gradient(top, #89c403 5%, #77a809 100%);
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#89c403', endColorstr='#77a809',GradientType=0);
+	background-color:#89c403;
+	border:1px solid #74b807;
+}
+
+#submit:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403));
+	background:-moz-linear-gradient(top, #77a809 5%, #89c403 100%);
+	background:-webkit-linear-gradient(top, #77a809 5%, #89c403 100%);
+	background:-o-linear-gradient(top, #77a809 5%, #89c403 100%);
+	background:-ms-linear-gradient(top, #77a809 5%, #89c403 100%);
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403',GradientType=0);
+	background-color:#77a809;
+}
+
+#kill {
+	background-color: #FF3030;   /*http://www.december.com/html/spec/color1.html  (firebrick)*/
+	float: right;
+	-moz-box-shadow:inset 0px 1px 0px 0px #de6f6f;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #de6f6f;
+	box-shadow:inset 0px 1px 0px 0px #de6f6f;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c20404), color-stop(1, #a60a0a));
+	background:-moz-linear-gradient(top, #c20404 5%, #a60a0a 100%);
+	background:-webkit-linear-gradient(top, #c20404 5%, #a60a0a 100%);
+	background:-o-linear-gradient(top, #c20404 5%, #a60a0a 100%);
+	background:-ms-linear-gradient(top, #c20404 5%, #a60a0a 100%);
+	background:linear-gradient(to bottom, #c20404 5%, #a60a0a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c20404', endColorstr='#a60a0a',GradientType=0);
+	background-color:#c20404;
+	border:1px solid #ffc3bd;
+}
+
+#kill:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a60a0a), color-stop(1, #c20404));
+	background:-moz-linear-gradient(top, #a60a0a 5%, #c20404 100%);
+	background:-webkit-linear-gradient(top, #a60a0a 5%, #c20404 100%);
+	background:-o-linear-gradient(top, #a60a0a 5%, #c20404 100%);
+	background:-ms-linear-gradient(top, #a60a0a 5%, #c20404 100%);
+	background:linear-gradient(to bottom, #a60a0a 5%, #c20404 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a60a0a', endColorstr='#c20404',GradientType=0);
+	background-color:#a60a0a;
+}
+
+#controlPanel {
+	margin: 10px 0px 0px 0px;
+}
+
+/********** FOOTER **********/
+#foot {
+	background: #999999;
+	width: 100%;
+	padding: 5px;
+	margin: 15px 0px 3px 0px;
+	height: 35px;
+	line-height: 25px;
+/*    position: absolute;*/
+/*    bottom: 0;*/
+    
+}
+	
+
+#IELlink {
+	float: left;
+	margin-left: 20px;
+	font-size: 12px;
+}
+
+#CSTEMlink {
+	float: right;
+	margin-right: 20px;
+	max-width: 100px;
+}
+
+#contactCSTEM {
+	float: right;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 5px;
+	/*clear: both;*/
+}
+
+#cstemLogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width: 85%;
+}
+
+.footlinks {
+	background: #CCCCCC;
+	float: left;
+	text-decoration: none;
+	color: black;
+	height: 25px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+/********** GLOBAL **********/
+.clear { clear:both; }
+
+/* new clearfix */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+* html .clearfix             { zoom: 1; } /* IE6 */
+
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+

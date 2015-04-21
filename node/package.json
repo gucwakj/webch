@@ -1,0 +1,10 @@
+{
+	"name": "webch",
+	"version": "0.0.1",
+	"description": "Web Ch application",
+	"dependencies": {
+		"socket.io": ">1.3.5",
+		"express": ">4.12.3"
+	}
+}
+

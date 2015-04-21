@@ -1,0 +1,96 @@
+.navigation {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.nav {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+    width:100%;
+    display: table;
+    border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+    }
+
+.nav li {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    background: #02B6E0;
+    color: #fff;
+    padding: 7px 8px;
+    }
+
+.nav li a {
+	
+	
+	display: block;
+	
+	text-decoration: none;
+/*	border-top: 1px solid #333;*/
+}
+
+#left{
+    border-top-left-radius: 5px;
+}
+
+#right{
+    border-top-right-radius: 5px;
+}
+
+#both{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.nav li:hover {
+	color: #069;
+}
+
+/*=== submenu ===*/
+
+.nav ul {
+    width: 100%;
+    padding: 7px 8px;
+	display: none;
+	position: absolute;
+	margin: 0 0 0 -16px;
+	list-style: none;
+}
+
+.nav ul li {
+    width: 100%
+	float: left;
+    display: block;
+	height: 15px;
+/*	padding: 7px 8px;*/
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid #333;
+}
+
+.nav li#current, .nav li#current:active, .nav li#current:focus, .nav li#current:hover {
+background:#0292B3;	
+}
+
+/*=== Second layer ===*/
+
+.lessonPlanNavLink ul {
+    width: 100%;
+    padding: 7px 8px;
+	display: none;
+	position: absolute;
+	margin: -32px 0 0 108px;
+	list-style: none;
+}
+
+.lessonPlanNavLink ul li {
+    width: 100%
+	float: left;
+    display: block;
+	height: 15px;
+/*	padding: 7px 8px;*/
+	color: #fff;
+	text-decoration: none;
+	border-left: 1px solid #333;
+}
