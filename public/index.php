@@ -142,13 +142,8 @@
 				<h3> Computer programming in C </h3>
 				<p>This course will be a general introduction to programming in C. The various courses will teach you most of the different aspects of C programming.</p>
 				<p>
-					<a class="lessonPlanNavLink" onclick= "lessonLink('lessons/ch1L1.php')">
-					<h4 class="courseLink">Course 1: Basic C programming</h4>
-					</a>
-					<a class="lessonPlanNavLink" onclick= "lessonLink('lessons/ch2L1.php')">
-					<h4 class="courseLink">Course 2: Math with C</h4>
-					</a>
-					<h4>Course 3: Title Here</h4>
+					<a class="lessonPlanNavLink" onclick= "lessonLink('lessons/ch1L1.php')"><h4 class="courseLink">Course 1: Basic C programming</h4></a>
+					<a class="lessonPlanNavLink" onclick= "lessonLink('lessons/ch2L1.php')"><h4 class="courseLink">Course 2: Math with C</h4></a>
 				</p>
 			</div>
 		</div>
