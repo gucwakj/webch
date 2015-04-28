@@ -63,7 +63,7 @@ io.sockets.on('connection', function (socket) {
 		}
 
 		/* TAKE STDIN INPUT WHEN RUNNING SCRIPT FILE */
-		if (data.input !== undefined && data.input !== '') {
+		if (data.input !== undefined && data.input !== '' && chs[socket.id].chScript) {
 			chs[socket.id].chchild.writeInputVal(data.input);
 		}
 
