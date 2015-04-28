@@ -162,7 +162,6 @@
 
 		<div id="controlPanel">
 			<input type="submit" id="submit" class="userButtons" value="Run" name="runCode" onclick="submit()" />
-			<button id="plot" class="userButtons">View Plot</button>
 			<input type="submit" id="kill" class="userButtons" value="Stop" onclick="kill()" />
 		</div>
 
