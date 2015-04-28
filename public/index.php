@@ -41,8 +41,7 @@
 
 	<!--SocketIO-->
 	<script language="javascript" type="text/javascript">
-		//var socket = io.connect("http://169.237.108.168:8080");
-		var socket = io.connect("http://169.237.108.13:8080");
+		var socket = io.connect("http://169.237.108.168:8080");
 
 		$(function () {
 			socket.on("cmd", function(data) {
